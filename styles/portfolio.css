@@ -208,8 +208,40 @@ main section {
     font-size: 16px;
     font-weight: 400;
 }
-.resume-btn{
+
+.resume-btn {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 110px;
+}
+
+/* Footer Section Styles */
+
+footer {
+    display: flex;
+    gap: 115px;
+    background: #FFF8F3;
+    padding: 130px 230px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.social-link a {
+    margin-right: 24px;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
 }
