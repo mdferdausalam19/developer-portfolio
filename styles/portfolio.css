@@ -14,7 +14,7 @@ body {
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
-    padding: 18px 35px;
+    padding: 15px 35px;
 }
 
 .section-title {
@@ -65,9 +65,9 @@ nav a {
 /* Header Related Styles */
 .header {
     background: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -77,12 +77,12 @@ nav a {
     justify-content: space-between;
 }
 
-.profile-pic {
-    width: 580px;
+.banner .profile-pic {
+    width: 585px;
 }
 
 .banner-content {
-    max-width: 500px;
+    max-width: 585px;
 }
 
 .banner-greeting {
@@ -104,7 +104,6 @@ nav a {
     color: #757575;
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
     margin-top: 0;
     margin-bottom: 30px;
 }
@@ -124,7 +123,7 @@ main section {
     border-radius: 10px;
     background: #FFF8F3;
     padding: 130px 155px;
-    margin-top: 130px;
+    margin-top: 130px 0px;
 }
 
 .about-info-container {
@@ -224,6 +223,14 @@ footer {
     padding: 130px 230px;
 }
 
+.footer-section-title {
+    text-align: left;
+}
+
+.footer-section-description {
+    text-align: left;
+}
+
 .footer-column {
     width: 50%;
 }
@@ -232,7 +239,8 @@ footer {
     margin-right: 24px;
 }
 
-.contact input[type="text"], .contact input[type="email"],
+.contact input[type="text"],
+.contact input[type="email"],
 textarea {
     display: block;
     margin-bottom: 25px;
